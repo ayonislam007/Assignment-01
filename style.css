@@ -118,3 +118,152 @@ border-radius: 8px;
 .content p{
   color: #666 ;
 }
+.pricing{
+    max-width:1100px;
+    margin:70px auto;
+    padding:20px;
+}
+
+.heading{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.heading h2{
+    font-size:48px;
+    font-weight:800;
+    color:#162334;
+    margin-bottom:10px;
+}
+
+.heading p{
+    color:#8a94a6;
+    font-size:15px;
+}
+
+.pricing-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border:1px solid #e7eaf0;
+    border-radius:12px;
+    padding:22px;
+    display:flex;
+    flex-direction:column;
+}
+
+.card small{
+    font-size:11px;
+    color:#8c95a5;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:12px;
+}
+
+.card h1{
+    font-size:52px;
+    color:#172334;
+    font-weight:800;
+    line-height:1;
+}
+
+.card span{
+    color:#9aa3b2;
+    font-size:13px;
+    margin-top:8px;
+}
+
+.card hr{
+    border:none;
+    border-top:1px solid #edf1f6;
+    margin:22px 0;
+}
+
+.card ul{
+    list-style: disc;
+    padding-left:20px;
+}
+
+.card ul li{
+    font-size:14px;
+    color:#4b5563;
+    margin-bottom:14px;
+    display:flex;
+    align-items:flex-start;
+    line-height:1.5;
+}
+
+.card ul li i{
+    color:#2f6fff;
+    font-size:6px;
+    margin-right:10px;
+    margin-top:8px;
+}
+
+.card button{
+    margin-top:20px;
+    height:44px;
+    border-radius:8px;
+    border:1px solid #2f6fff;
+    background:#fff;
+    color:#2f6fff;
+    font-weight:700;
+    cursor:pointer;
+    
+}
+
+.card button:hover{
+    background:#2f6fff;
+    color:#fff;
+}
+
+/* Pro Card */
+
+.pro{
+    background:#122235;
+    border:none;
+    
+}
+
+.pro h1{
+    color:#fff;
+}
+
+.pro small,
+.pro span{
+    color:#b8c3d1;
+}
+
+.pro hr{
+    border-top:1px solid #26384c;
+}
+
+.pro ul li{
+    color:#fff;
+}
+
+.pro button{
+    background:#2f6fff;
+    color:#fff;
+    border:none;
+}
+
+.pro button:hover{
+    background:#1d5cf5;
+}
+
+/* Team button */
+
+.card:last-child button{
+    border:1px solid #172334;
+    color:#172334;
+}
+
+.card:last-child button:hover{
+    background:#172334;
+    color:#fff;
+}
